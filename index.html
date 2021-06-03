@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Importing Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>Aplicación Calculadora</title>
@@ -12,22 +13,26 @@
           <h1>Aplicación Calculadora</h1>
         <form id="forma">
             <div class="mb-3">
+<!-- Block A -->
                 <label for="operandoA">Operando A:</label>
                 <input type="number" class="form-control" 
                 placeholder="Escribe Operando A" id="operandoA"/>
             </div>
-
+<!-- Block B -->
             <div class="mb-3">
                 <label for="operandoB">Operando B:</label>
                 <input type="number" class="form-control" 
                 placeholder="Escribe Operando B" id="operandoB">
             </div>
         </form>
+<!-- Button -->
         <button class="btn btn-primary mb-3" onclick="sumar()">
             Sumar</button>
+<!-- Display result-->
         <div id="resultado"></div>    
     </div>
-      
+     
+<!-- Adding scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="Js/app.js"></script>
 
